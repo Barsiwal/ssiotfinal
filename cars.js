@@ -12,7 +12,7 @@ Cylon.robot({
     camera: {
       driver: "camera",
       camera: 0,
-      haarcascade: __dirname + "/hogcascade_cars_sideview.xml"
+      haarcascade: "./data/hogcascade_cars_sideview.xml"
     }
   },
 
